@@ -3,7 +3,7 @@ This is a food application. Discover nearby restaurant for the user.
 
 _______________________________________________________________________
 <div style="color: grey;font-size: 10px">
-  This is an android studio application. After clone the project in your local machine, open this application in Android Studio, then 'Run' the app.
+  'Makan Apa' is an android studio application. After clone the project in your local machine, open this application in Android Studio, then 'Run' the app.
   </div>
 <p align="center">
   <h3>Login page</h3>
