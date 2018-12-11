@@ -7,7 +7,9 @@ _______________________________________________________________________
   </div>
 <p align="center">
   <h3>Login page</h3>
-  <img src="https://github.com/weikang761195/MakanLah/blob/master/app/src/main/res/screenshot/47684679_276968382965166_2713958098829049856_n.jpg" width="350" title="Login page">
+  <img src="https://github.com/weikang761195/MakanLah/blob/master/app/src/main/res/drawable/screenshot/login.png.jpg" width="350" title="Login page">
+    <h3>Home page</h3>
+  <img src="https://github.com/weikang761195/MakanLah/blob/master/app/src/main/res/drawable/screenshot/home.png.jpg" width="350" title="Login page">
 </p>
 
 
