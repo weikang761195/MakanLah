@@ -16,10 +16,7 @@ _______________________________________________________________________
 
 
 <p align="center">
-  <h3>Login page</h3>
-  <img src="https://github.com/weikang761195/MakanLah/blob/master/app/src/main/res/drawable/screenshot/login.png.jpg" width="350" title="hover text">
-  <h3>Home page</h3>
-  <img src="https://github.com/weikang761195/MakanLah/blob/master/app/src/main/res/drawable/screenshot/home.png.jpg" width="350" alt="accessibility text">
+ 
 </p>
 
 
