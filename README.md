@@ -15,9 +15,14 @@ _______________________________________________________________________
   <img src="https://github.com/weikang761195/MakanLah/blob/master/app/src/main/res/drawable/screenshot/home.png.jpg" width="350" title="Home page">
 </p>
 
-
-<p align="center">
- 
+<br>
+<h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Search Page</h3>
+<p align="left">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/weikang761195/MakanLah/blob/master/app/src/main/res/drawable/screenshot/search.jpg" width="350" title="Login page">
+  &nbsp;&nbsp;&nbsp;
+  
+  
 </p>
 
 
