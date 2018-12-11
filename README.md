@@ -15,14 +15,14 @@ _______________________________________________________________________
   <img src="https://github.com/weikang761195/MakanLah/blob/master/app/src/main/res/drawable/screenshot/home.png.jpg" width="350" title="Home page">
 </p>
 
-<br>
-<h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Search Page</h3>
-<p align="left">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/weikang761195/MakanLah/blob/master/app/src/main/res/drawable/screenshot/search.jpg" width="350" title="Login page">
+  <br>
+   <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Search Page & History page</h3>
+<p align="center">
+
+  <img src="https://github.com/weikang761195/MakanLah/blob/master/app/src/main/res/drawable/screenshot/search.jpg" width="350" title="Search page">
   &nbsp;&nbsp;&nbsp;
   
-  
+  <img src="https://github.com/weikang761195/MakanLah/blob/master/app/src/main/res/drawable/screenshot/history.png.jpg" width="350" title="History page">
 </p>
 
 
