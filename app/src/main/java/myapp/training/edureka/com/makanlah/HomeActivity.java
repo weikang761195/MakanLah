@@ -7,6 +7,8 @@ import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.AutoCompleteTextView;
+import android.widget.EditText;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -14,6 +16,7 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        EditText searchBar = findViewById(R.id.search_bar_id);
 
         BottomNavigationView topNav = findViewById(R.id.top_navigation);
         topNav.setOnNavigationItemSelectedListener(navListener);
