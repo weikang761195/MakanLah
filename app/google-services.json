@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1066962068292",
+    "firebase_url": "https://makanlah-225309.firebaseio.com",
+    "project_id": "makanlah-225309",
+    "storage_bucket": "makanlah-225309.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066962068292:android:e69fb9ae75efab1f",
+        "android_client_info": {
+          "package_name": "myapp.training.edureka.com.makanlah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066962068292-fq7s293iaaa7d1o5m9cctou9ffjbfr6b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Roc4O2QAjT7WINwwBT8b5JbzsAQ0FRk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
