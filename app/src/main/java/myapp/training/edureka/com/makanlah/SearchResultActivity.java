@@ -1,5 +1,6 @@
 package myapp.training.edureka.com.makanlah;
 
+import android.Manifest;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.location.LocationListener;
@@ -33,8 +34,6 @@ public class SearchResultActivity extends AppCompatActivity {
     private LocationListener locationlistener;
 
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,31 +42,42 @@ public class SearchResultActivity extends AppCompatActivity {
         final TextView search_restaurant_name = (TextView) findViewById(R.id.restaurant_name);
 
 
+        locationManager = (LocationManager) this.getSystemService(LOCATION_SERVICE);
 
-        locationManager = (LocationManager)this.getSystemService(LOCATION_SERVICE);
-        Log.d("Location", "onLocationChanged: "+locationManager.toString());
         locationlistener = new LocationListener() {
             @Override
             public void onLocationChanged(Location location) {
-                Log.d("Location", "onLocationChanged: "+location.toString());
+                Log.d("Location", "onLocationChanged: " + "jibai");
 
             }
 
             @Override
             public void onStatusChanged(String provider, int status, Bundle extras) {
-
+                Log.d("Location", "onLocationChanged: " + "jibai");
             }
 
             @Override
             public void onProviderEnabled(String provider) {
-
+                Log.d("Location", "onLocationChanged: " + "jibai");
             }
 
             @Override
             public void onProviderDisabled(String provider) {
-
+                Log.d("Location", "onLocationChanged: " + "jibai");
             }
         };
+
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            // TODO: Consider calling
+            //    ActivityCompat#requestPermissions
+            // here to request the missing permissions, and then overriding
+            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+            //                                          int[] grantResults)
+            // to handle the case where the user grants the permission. See the documentation
+            // for ActivityCompat#requestPermissions for more details.
+            return;
+        }
+        locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationlistener);
 
 
 
