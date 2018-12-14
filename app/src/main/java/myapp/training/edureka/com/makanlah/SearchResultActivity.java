@@ -41,6 +41,7 @@ public class SearchResultActivity extends AppCompatActivity {
         requestPermission();
         final TextView search_restaurant_name = (TextView) findViewById(R.id.restaurant_name);
 
+        
 
         locationManager = (LocationManager) this.getSystemService(LOCATION_SERVICE);
 
