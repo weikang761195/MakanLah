@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
     private GoogleApiClient mGoogleApiClient;
     private static final String TAG = "Main_Activity";
     private FirebaseAuth.AuthStateListener mAuthListener;
-
     private boolean mLocationPermissionGranted;
     private static final int PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION = 1;
 
