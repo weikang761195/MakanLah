@@ -19,6 +19,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.google.firebase.auth.FirebaseAuth;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -29,14 +30,14 @@ import java.io.InputStream;
 import java.util.logging.Logger;
 
 public class HomeActivity extends AppCompatActivity {
-
+    FirebaseAuth mAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         EditText searchBar = findViewById(R.id.search_bar_id);
 
-
+        mAuth = FirebaseAuth.getInstance();
         BottomNavigationView topNav = findViewById(R.id.top_navigation);
         topNav.setOnNavigationItemSelectedListener(navListener);
 
@@ -80,6 +81,13 @@ public class HomeActivity extends AppCompatActivity {
         Intent intent = new Intent(HomeActivity.this, SearchResultActivity.class);
         startActivity(intent);
 
+    }
+
+    public void signOut(View v){
+        mAuth.signOut();
+        finish();
+        Intent i = new Intent(getApplicationContext(),MainActivity.class);
+        startActivity(i);
     }
 
 
